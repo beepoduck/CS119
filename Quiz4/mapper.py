@@ -21,7 +21,7 @@ def calc_Valence(text):
         for i in range (len(library)):
             if (library[i]["word"] == word):
                 filename = os.environ['mapreduce_map_input_file']
-                key = filename.split("hdfs://cluster-119/user/ashysze/quiz5/prez_speeches/")[1].split(".tar.gz")[0]
+                key = filename.split("hdfs://cluster-119/user/sze/quiz4/prez_speeches/")[1].split(".tar.gz")[0]
                 value = library[i]["value"]
                 print(key,"\t",value)
 

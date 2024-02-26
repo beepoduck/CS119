@@ -35,7 +35,6 @@ def main(argv):
                 "word": words[0],
                 "value": words[1] }
             library.append(dict)
-        # print(library)
     
     try:
         while line:
